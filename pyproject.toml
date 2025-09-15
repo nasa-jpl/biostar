@@ -19,9 +19,6 @@ dash-mantine-components = "^1.1.0"
 dash-iconify = "^0.1.2"
 deepdiff = "^8.4.2"
 
-[tool.poetry.group.dev.dependencies]
-pre-commit = "^3.3"
-
 [tool.ruff]
 target-version = "py312"
 line-length = 100
