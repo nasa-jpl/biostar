@@ -4,21 +4,20 @@ Open source release of the NASA BioSTAR (Bioburden Sampling Tool for Assessing R
 
 ## Local Development Setup
 
-First make sure Python 3.12 and [Poetry](https://python-poetry.org/) are installed.
-
-Clone into your new repo and create/activate a new virtual environment at the project root:
+First make sure Python 3.12 and [Poetry](https://python-poetry.org/) are installed, then create + activate a Python 3.12 virtual environment, for example:
 
 ```bash
-# From the root of your repository
 python3 -m venv .venv
+# Linux/Mac
 source .venv/bin/activate
+# Windows
+.venv/Scripts/activate
 ```
 
 Now install the project dependencies using Poetry:
 
 ```bash
-poetry install --with dev --no-root
-pre-commit install
+poetry install
 ```
 
 Create a file `.env` (at the project root) defining the required environment variables (see `example.env`).
