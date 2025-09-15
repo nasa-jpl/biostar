@@ -1,4 +1,4 @@
-# OpenBioSTAR
+# biostar
 
 Open source release of the NASA BioSTAR (Bioburden Sampling Tool for Assessing Risk) codebase, developed by the Jet Propulsion Laboratory.
 
@@ -6,7 +6,7 @@ Open source release of the NASA BioSTAR (Bioburden Sampling Tool for Assessing R
 
 First make sure Python 3.12 and [Poetry](https://python-poetry.org/) are installed, then create + activate a Python 3.12 virtual environment, for example:
 
-```bash
+```
 python3 -m venv .venv
 # Linux/Mac
 source .venv/bin/activate
@@ -16,7 +16,7 @@ source .venv/bin/activate
 
 Now install the project dependencies using Poetry:
 
-```bash
+```
 poetry install
 ```
 
@@ -24,7 +24,7 @@ Create a file `.env` (at the project root) defining the required environment var
 
 Now run the server locally:
 
-```bash
+```
 make runserver  # shortcut for 'python3 -m biostar.app'
 ```
 
