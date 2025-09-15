@@ -1,0 +1,18 @@
+/* Dash Table Styling */
+
+button.show-hide {
+    display: none !important;
+}
+
+span.column-header--hide {
+    display: none !important;
+}
+
+.dash-table-tooltip {
+    font-family: sans-serif;
+    min-width: 0 !important;
+}
+
+div.dash-spreadsheet-container {
+    padding-bottom: 0px !important;
+}
